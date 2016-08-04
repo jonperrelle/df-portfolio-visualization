@@ -26,7 +26,7 @@ app.directive('pieChart', function(d3Service) {
                     anchor.selectAll('*').remove();
 
                     let margin = {top: 0, right: 40, bottom: 30, left: 40},
-                        width = ele[0].parentNode.offsetWidth - margin.left - margin.right,
+                        width = (ele[0].parentNode.offsetWidth - margin.left - margin.right) > 600 ? 600 : ele[0].parentNode.offsetWidth - margin.left - margin.right,
                         height = 420 - margin.top - margin.bottom;
 
                     let svg = anchor.append('svg')

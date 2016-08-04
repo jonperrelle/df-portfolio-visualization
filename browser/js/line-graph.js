@@ -26,7 +26,7 @@ app.directive('lineGraph', function(d3Service) {
                     anchor.selectAll('*').remove();
 
                     let margin = {top: 50, right: 40, bottom: 30, left: 40},
-                        width = ele[0].parentNode.offsetWidth - margin.left - margin.right,
+                        width = (ele[0].parentNode.offsetWidth - margin.left - margin.right) > 600 ? 600 : ele[0].parentNode.offsetWidth - margin.left - margin.right,
                         height = 350 - margin.top - margin.bottom;
 
                     let svg = anchor.append('svg')
