@@ -1,0 +1,58 @@
+
+
+.table {
+	background: #ffffff;
+	border-bottom: 1px solid #DDDDDD;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.home-container {
+	margin-top: 10px;
+}
+
+h4 {
+	text-align: center;
+}
+
+table .account-value {
+	text-align: right;
+}
+
+.account-performance {
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+.account-performance > h4 {
+	margin-bottom: 10px;
+}
+
+.account-performance > .line-chart-btns {
+	margin-bottom: 20px;
+}
+ 
+                                                               
+.tooltip {                                                                                                                                                                                                                                                                                                                                     
+	padding: 5px; 
+	position: absolute;
+	top: 200px;  
+	width: 100%; 
+	text-align: center;                                                                                                                                       		                                                                                              
+}  
+
+.name {
+	color: #000;
+	font-size: 14px; 
+	font-weight: 700; 
+}   
+
+.lineLegend {
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	font-size: 11px;
+}  
+
+
+

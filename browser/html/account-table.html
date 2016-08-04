@@ -1,0 +1,25 @@
+<div class="row">  
+  <div class="table-responsive">
+    <h3>Account Summary</h3>
+    <table ng-table="tableParams" class="table table-condensed table-bordered table-striped">
+      <tr ng-repeat="position in $data">
+        <td title="'Name'">
+            {{position.security.name}}
+        </td>
+        <td title="'Ticker'">
+            {{position.security.ticker}}
+        </td>
+        <td title="'Shares'">
+            {{position.shares}}
+        </td>
+        <td title="'Price'" class="account-value">
+            {{position.price | currency}}
+        </td>
+        <td title="'Current Market Value'" class="account-value">
+            {{position.value | currency}}
+        </td>
+    </tr>
+    </table>
+  </div>
+</div>
+
