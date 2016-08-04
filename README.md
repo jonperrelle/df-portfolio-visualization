@@ -5,4 +5,4 @@ Includes:
 - Pie Chart which shows allocation of assets in portfolio
 - Line Graph which shows account performance over time
 
-Available at (http://jp-df-portfoliovisualization.tk)
+Available at [jp-df-portfoliovisualization.tk](http://jp-df-portfoliovisualization.tk)
